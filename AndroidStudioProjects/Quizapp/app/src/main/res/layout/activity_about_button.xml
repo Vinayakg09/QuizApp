@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#3E54CC"
+        android:text=" QuizApp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/textview3"
+        android:layout_margin="40sp"
+        android:text="Developers"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textview4"
+        android:src="@drawable/v_logo" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview4"
+        android:layout_centerInParent="true"
+        android:text="Vinayak Gupta"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview6"
+        android:layout_centerInParent="true"
+        android:text="vinayakgupta304@gmail.com"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="370sp"
+        android:layout_height="58sp"
+        android:layout_below="@+id/textview4"
+        android:layout_marginTop="450sp"
+        android:layout_centerInParent="true"
+        android:text="@string/previous"
+        android:background="#3E54CC"
+        android:textSize="20sp" />
+
+</RelativeLayout>

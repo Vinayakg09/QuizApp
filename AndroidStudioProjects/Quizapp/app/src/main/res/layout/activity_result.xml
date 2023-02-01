@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Result"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginBottom="100dp"
+        android:background="#3E54CC"
+        android:text=" QuizApp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textviewr1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_margin="20dp"
+        android:background="#FF0000"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textviewr2"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_margin="20dp"
+        android:background="#00FF00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textviewr3"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_margin="20dp"
+        android:background="#FFFF00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/light_blue"
+        android:text="Restart" />
+
+
+</LinearLayout>

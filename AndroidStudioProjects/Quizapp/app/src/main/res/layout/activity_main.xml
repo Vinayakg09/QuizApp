@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#3E54CC"
+        android:text=" QuizApp"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textview1"
+        android:layout_marginTop="112dp"
+        android:text="QuizApp"
+        android:textColor="#E64C1B"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview2"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="154dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="50sp"
+        android:textColor="@color/black"
+        android:textColorHint="#757575" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/editTextTextPersonName"
+        android:layout_marginTop="174sp"
+        android:background="@color/orange"
+        android:text="Start"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="15sp"
+        android:background="@color/light_blue"
+        android:text="About"
+        android:textSize="20sp" />
+
+</RelativeLayout>

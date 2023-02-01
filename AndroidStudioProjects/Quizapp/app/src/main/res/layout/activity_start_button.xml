@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/textview_first"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="#3E54CC"
+        android:text=" QuizApp"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textview_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_first"
+        android:textColor="@color/light_blue"
+        android:layout_margin="10dp"
+        android:textSize="25sp"/>
+
+    <FrameLayout
+        android:id="@+id/fragmentlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_name"/>
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="370sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview_first"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="432dp"
+        android:background="@color/orange"
+        android:text="Next Question" />
+
+    <Button
+        android:id="@+id/button_second"
+        android:layout_width="370sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_first"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="19dp"
+        android:background="@color/light_blue"
+        android:text="Quit" />
+
+    <TextView
+        android:id="@+id/textview_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_second"
+        android:layout_margin="50dp"
+        android:ems="15"
+        android:text="Score"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/textview_name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_second"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/textview_name1"
+        android:text="0"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
